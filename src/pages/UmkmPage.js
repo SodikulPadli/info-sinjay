@@ -34,7 +34,7 @@ export default function UmkmPage() {
                   <img src={UMKM} alt="gambar" width="w-full" />
                   <div className="p-3">
                     <h3 className="mt-5 mb-5 text-xl font-semibold text-dark"><span className='text-sky-400'>Zscondbrnds.id</span> Pelopor Thrifting Sindang Jaya</h3>
-                    <p className="text-base font-medium text-secondary text-justify  mb-5">Kini di Sindang jaya ada Thrifting jaket yang berkualitas dan ramah di kantong, dimana lagi cuma ada di Zscondbrnds.id , bagi warga sidang jaya dan sekitarnya bisa langsung datang saja ke toko di jalan sindang jaya no.45 . Yuks Kepoin Medos dan Marketplace nya </p>
+                    <p className="text-base font-medium text-secondary text-justify  mb-5">Kini di Sindang jaya ada Thrifting jaket yang berkualitas dan ramah di kantong, dimana lagi cuma ada di Zscondbrnds.id , bagi warga sidang jaya dan sekitarnya bisa langsung datang saja ke toko di jalan sindang jaya no.45 . Yuks Kepoin Media Sosial dan Marketplace nya </p>
                     <div class="mb-5 flex items-center justify-center">
                     <a href="https://shopee.co.id/zsecondbrnds.id" target="_blank" class="mr-3 flex h-9 w-9 items-center justify-center ">
                       <img src={Shopee}/>
