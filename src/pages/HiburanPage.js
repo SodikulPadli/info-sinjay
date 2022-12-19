@@ -32,7 +32,7 @@ export default function HiburanPage() {
                   <img src={Hutan} alt="gambar" width="w-full" />
                   <div className="p-3">
                     <h3 className="mt-5 mb-5 text-xl font-semibold text-dark">Wisata Hutan Jati Murah Meriah Kini ada di Sindang Jaya</h3>
-                    <p className="text-base font-medium text-secondary text-justify  mb-5">Akhir pekan merupakan waktunya yang tepat melepas penat, setelah satu minggu lamanya fokus bekerja. Wisata bareng keluarga merupakan salah satu pilihan. Wisata Hutan Jati Sindang Asih, merupakan salah satu objek wisata keluarga, maupun dengan pasangan.Selain harganya yang murah meriah, tempat ini pun banyak sekali menawarkan wahana bermain yang disukai mulai dari anak - anak hingga orang dewasa.</p>
+                    <p className="text-base font-medium text-secondary text-justify  mb-5">Akhir pekan merupakan waktunya yang tepat melepas penat, setelah satu minggu lamanya fokus bekerja. Wisata bareng keluarga merupakan salah satu pilihan. Wisata Hutan Jati Sindang Jaya, merupakan salah satu objek wisata keluarga, maupun dengan pasangan .Selain harganya yang murah meriah, tempat ini pun banyak sekali menawarkan wahana bermain yang disukai mulai dari anak - anak hingga orang dewasa.</p>
                     <p className="text-base font-sm text-sky-400"> Sumber : info sinjay </p>
                   </div>
                 </div>
