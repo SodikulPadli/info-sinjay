@@ -4,6 +4,7 @@ import React from 'react';
 import UMKM from "../img/umkm1.jpeg"
 import Shopee from "../img/shopee.png";
 import Instagram from "../img/instagram.png"
+import Navbar from '../components/Navbar';
 
 export default function UmkmPage() {
   // const [data, setData] = useState([]);
@@ -18,8 +19,11 @@ export default function UmkmPage() {
   // useEffect(() => {
   //   getData();
   // }, []);
+  const title = "Bangkit UMKM";
+  document.title = "Info Sinjay | " + title;
   return (
     <>
+      <Navbar title={title} />
       <div className='mt-32'>
     <div className='text-center mb-3 md:text-start md:mx-2'>
     <h2 className='text-slate-800 font-semibold text-2xl'>BANGKIT UMKM <span className='text-sky-400'>#Sindang Jaya</span></h2>

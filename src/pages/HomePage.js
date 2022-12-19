@@ -1,6 +1,7 @@
 // import { useState, useEffect } from 'react';
 // import axios from 'axios';
 import Berita1 from "../img/berita1.jpg"
+import Navbar from "../components/Navbar";
 
 export default function HomePage() {
   // const [news, setNews] = useState([]);
@@ -16,8 +17,11 @@ export default function HomePage() {
   // useEffect(() => {
   //   getNews();
   // }, []);
+  const title = ' Berita';
+  document.title = 'Info Sinjay | ' + title;
   return (
     <>
+    <Navbar title={title} />
     <div className='mt-32'>
     <div className='text-center mb-3 md:text-start md:mx-2'>
     <h2 className='text-slate-800 font-semibold text-2xl'>BERITA TERKINI <span className='text-sky-400'>#Sindang Jaya</span></h2>

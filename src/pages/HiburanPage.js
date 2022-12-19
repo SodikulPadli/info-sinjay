@@ -1,7 +1,8 @@
 import React from 'react';
 // import { useState, useEffect } from 'react';
 // import axios from 'axios';
-import Hutan  from "../img/hutanjati.jpg"
+import Hutan from "../img/hutanjati.jpg";
+import Navbar from '../components/Navbar';
 
 export default function HiburanPage() {
   // const [data, setData] = useState([]);
@@ -16,8 +17,11 @@ export default function HiburanPage() {
   // useEffect(() => {
   //   getData();
   // }, []);
+  const title = "Wisata Unggul";
+  document.title = "Info Sinjay | " + title;
   return (
     <>
+      <Navbar title={title} />
       <div className='mt-32'>
     <div className='text-center mb-3 md:text-start md:mx-2'>
     <h2 className='text-slate-800 font-semibold text-2xl'>WISATA UNGGUL <span className='text-sky-400'>#Sindang Jaya</span></h2>
